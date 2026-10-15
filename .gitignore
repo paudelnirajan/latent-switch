@@ -1,0 +1,25 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Private notes and reference material (research guides, PDFs)
+notes/
+
+# Third-party repos we read from (e.g. Wendler's llm-latent-language)
+external/
+
+# Generated outputs: regenerate from code, never hand-edit
+results/
+data/raw/
+data/cache/
+wandb/
+
+# Cluster job logs
+logs/
+*.out
+*.err
