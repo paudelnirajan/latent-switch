@@ -8,7 +8,7 @@ import torch
 from tqdm.auto import tqdm
 
 from latent_switch.lens import layer_probs, script_curves
-from latent_switch.measures import measure
+from latent_switch.measures import make_controls, measure
 
 
 def run_translation_lens(model, df: pd.DataFrame, prompts: list[str], ctrl_idx: np.ndarray,
@@ -37,6 +37,20 @@ def run_translation_lens(model, df: pd.DataFrame, prompts: list[str], ctrl_idx: 
     }
 
 
+
+def run_correct_only(model, df: pd.DataFrame, prompts: list[str], roles: dict[str, str],
+                     masks: dict[str, torch.Tensor], seed: int = 0) -> dict:
+    """Two passes: find the correctly translated prompts, then rerun only those with controls deranged among them.
+
+    Deranging within the analysed subset keeps the balance make_controls gives: matched and control words are
+    the same set of concepts, so word popularity still cancels (deranging over all prompts and then keeping the
+    correct ones does not guarantee that).
+    """
+    first = run_translation_lens(model, df, prompts, make_controls(len(df), seed), roles, masks)
+    ok = np.flatnonzero(first["correct"])
+    sub = df.iloc[ok].reset_index(drop=True)
+    return run_translation_lens(model, sub, [prompts[i] for i in ok], make_controls(len(sub), seed), roles, masks)
+
 def save_run(run: dict, path: str | Path) -> Path:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -47,5 +61,6 @@ def save_run(run: dict, path: str | Path) -> Path:
 def load_run(path: str | Path) -> dict:
     """weights_only=True (the default) is enough: runs hold only tensors and plain Python types."""
     run = torch.load(path)
-    run.setdefault("roles", {"tgt": run["config"]["tgt"], "lat": run["config"]["latent"]})   # pre-roles runs
+    if "roles" not in run:                                   # runs saved before roles existed
+        run["roles"] = {"tgt": run["config"]["tgt"], "lat": run["config"]["latent"]}
     return run
