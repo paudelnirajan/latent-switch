@@ -66,20 +66,28 @@ def select_concepts(stats: pd.DataFrame, langs: list[str], variant: str = "plain
     return out.reset_index(), wide.index[~keep]
 
 
-def translation_set(stats: pd.DataFrame, src: str, tgt: str, latent: str = "eng_Latn") -> pd.DataFrame:
+def translation_set(stats: pd.DataFrame, src: str, tgt: str,
+                    latents: str | list[str] = "eng_Latn") -> pd.DataFrame:
     """Concepts for a src→tgt translation lens experiment, with the token sets we measure.
 
-    Filters: first tokens usable and distinct across src/tgt/latent, and the tgt and latent prefix
-    sets share no id (Wendler's rule). Columns: concept_id, one word + first-id column per language,
-    and `{lang}_prefix` (list of ids) for tgt and latent.
+    `latents` is one language or several candidate latent languages (hub test). Filters: first tokens usable
+    and distinct across all languages, and the prefix sets of tgt and every latent pairwise disjoint
+    (Wendler's rule, generalised). Columns: concept_id, one word + first-id column per language, and
+    `{lang}_prefix` (list of ids) for tgt and each latent.
     """
-    langs = list(dict.fromkeys([src, tgt, latent]))     # dedupe, keep order (src may equal latent)
+    if isinstance(latents, str):
+        latents = [latents]
+    measured = list(dict.fromkeys([tgt, *latents]))     # languages we measure (dedupe, keep order)
+    langs = list(dict.fromkeys([src, *measured]))
     out, _ = select_concepts(stats, langs, verbose=False)
     prefixes = stats.pivot(index="concept_id", columns="lang", values="prefix_ids")
-    for l in dict.fromkeys([tgt, latent]):
+    for l in measured:
         out[f"{l}_prefix"] = out["concept_id"].map(prefixes[l])
-    if tgt != latent:
-        disjoint = out.apply(lambda r: not set(r[f"{tgt}_prefix"]) & set(r[f"{latent}_prefix"]), axis=1)
-        out = out[disjoint].reset_index(drop=True)
-    print(f"{src} → {tgt} (latent {latent}): {len(out)} concepts")
+
+    def disjoint(r):
+        sets = [set(r[f"{l}_prefix"]) for l in measured]
+        return all(not (a & b) for i, a in enumerate(sets) for b in sets[i + 1:])
+
+    out = out[out.apply(disjoint, axis=1)].reset_index(drop=True)
+    print(f"{src} → {tgt} (latents {', '.join(latents)}): {len(out)} concepts")
     return out

@@ -64,3 +64,22 @@ def plot_paired(run: dict, measure: str = "first"):
     ax[1].set(title="(b) rank advantage: log10(rank ctrl+1) − log10(rank+1)", ylabel="orders of magnitude")
     _finish(fig, ax, run)
     return fig
+
+
+def plot_seeds(runs: dict[str, dict], title: str):
+    """Paired rank advantage, one panel per role and one line per run (e.g. seeds), mean ± 95% CI, correct-only."""
+    roles = next(iter(runs.values()))["roles"]
+    fig, ax = plt.subplots(1, len(roles), figsize=(5 * len(roles), 4.5), sharey=True)
+    for a, (r, lang) in zip(ax, roles.items()):
+        for k, (label, run) in enumerate(runs.items()):
+            ok = np.array(run["correct"])
+            layers = np.arange(run["curves"]["entropy"].shape[1])
+            _band(a, layers, mean_ci(rank_advantage(run["curves"], r)[ok]), f"C{k}", label=f"{label} (n={ok.sum()})")
+        a.axhline(0, color="k", lw=0.8)
+        a.set(title=f"{lang} ({r})", xlabel="layer")
+        a.grid(alpha=0.3)
+    ax[0].set_ylabel("rank advantage (orders of magnitude)")
+    ax[0].legend(fontsize=8)
+    fig.suptitle(title)
+    fig.tight_layout()
+    return fig
