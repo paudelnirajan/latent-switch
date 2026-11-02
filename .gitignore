@@ -24,3 +24,7 @@ wandb/
 logs/
 *.out
 *.err
+
+# Big activation dumps (regenerate with scripts/extract_resid.py)
+data/activations/c1_resid_*/
+data/activations/smoke_resid/
