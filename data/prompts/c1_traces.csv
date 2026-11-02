@@ -1,0 +1,586 @@
+source,item,lang,prompt,answer
+mclm_math100,4,ne,$$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$ को विस्तारमा स्थिर पद फेला पार्नुहोस्।,-125
+mclm_math100,4,hi,$$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$ के विस्तार में स्थिर पद खोजें।,-125
+mclm_math100,4,ru,Найдите постоянный член в разложении $$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$,-125
+mclm_math100,4,zh,在展开式 $$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$ 中找到常数项,-125
+mclm_math100,4,ja,$$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$ の展開における定数項を求めなさい。,-125
+mclm_math100,4,ar,أوجد الحد الثابت في توسع $$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$,-125
+mclm_math100,4,fr,Trouvez le terme constant dans le développement de $$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$,-125
+mclm_math100,4,sw,Tafuta neno la kigezo katika upanuzi wa $$\left(10x^3-\frac{1}{2x^2}\right)^{5}$$,-125
+mclm_math100,5,ne,"यदि $n \equiv 2 \pmod{7}$ भने, तब $(n + 2)(n + 4)(n + 6)$ लाई 7 ले भाग गर्दा बाँकी रहने संख्या पत्ता लगाउनुहोस्।",3
+mclm_math100,5,hi,"यदि $n \equiv 2 \pmod{7}$, तो $(n + 2)(n + 4)(n + 6)$ को 7 से विभाजित करने पर शेषफल क्या होगा?",3
+mclm_math100,5,ru,"Если $n \equiv 2 \pmod{7}$, то найдите остаток от деления $(n + 2)(n + 4)(n + 6)$ на 7.",3
+mclm_math100,5,zh,如果 $n \equiv 2 \pmod{7}$，那么当 $(n + 2)(n + 4)(n + 6)$ 被 7 除时，求余数。,3
+mclm_math100,5,ja,$n \equiv 2 \pmod{7}$ のとき、$(n + 2)(n + 4)(n + 6)$ を7で割った余りを求めなさい。,3
+mclm_math100,5,ar,إذا كان $n \equiv 2 \pmod{7}$، فجد الباقي عند قسمة $(n + 2)(n + 4)(n + 6)$ على 7.,3
+mclm_math100,5,fr,"Si $n \equiv 2 \pmod{7}$, alors trouvez le reste lorsque $(n + 2)(n + 4)(n + 6)$ est divisé par 7.",3
+mclm_math100,5,sw,"Ikiwa $n \equiv 2 \pmod{7}$, basi pata baki wakati $(n + 2)(n + 4)(n + 6)$ inagawanywa na 7.",3
+mclm_math100,7,ne,"समांतर चतुर्भुजको निर्देशाङ्कहरू (5, 3), (6, 8), (7, 4) र $(x, y)$ छन् र $x > 7$ छ। $x + y$ को मान के हो?",17
+mclm_math100,7,hi,"एक समांतर चतुर्भुज के निर्देशांक (5, 3), (6, 8), (7, 4) और $(x, y)$ हैं और $x > 7$ है। $x + y$ का मान क्या है?",17
+mclm_math100,7,ru,"Координаты параллелограмма: (5, 3), (6, 8), (7, 4) и $(x, y)$, где $x > 7$. Каково значение $x + y$?",17
+mclm_math100,7,zh,"一个平行四边形的坐标是 (5, 3), (6, 8), (7, 4) 和 $(x, y)$，且 $x > 7$。那么 $x + y$ 的值是多少？",17
+mclm_math100,7,ja,"平行四辺形の座標は (5, 3), (6, 8), (7, 4) と $(x, y)$ であり、$x > 7$ です。$x + y$ の値はいくつですか？",17
+mclm_math100,7,ar,"إحداثيات متوازي الأضلاع هي (5, 3)، (6, 8)، (7, 4) و $(x, y)$ و $x > 7$. ما هي قيمة $x + y$؟",17
+mclm_math100,7,fr,"Les coordonnées d'un parallélogramme sont (5, 3), (6, 8), (7, 4) et $(x, y)$ et $x > 7$. Quelle est la valeur de $x + y$ ?",17
+mclm_math100,7,sw,"Kuratibu za parallelogramu ni (5, 3), (6, 8), (7, 4) na $(x, y)$ na $x > 7$. Je, thamani ya $x + y$ ni ipi?",17
+mclm_math100,9,ne,"$f(x)=\frac{2x}{x^2-5x-14}$ को ग्राफको ठाडो असिम्प्टोटहरू $x=a$ र $x=b$ छन्, र तेर्सो असिम्प्टोट $y=c$ छ। $a+b+c$ को मान पत्ता लगाउनुहोस्।",5
+mclm_math100,9,hi,"$f(x)=\frac{2x}{x^2-5x-14}$ का ग्राफ ऊर्ध्वाधर आसमोट $x=a$ और $x=b$, और क्षैतिज आसमोट $y=c$ है। $a+b+c$ का मान ज्ञात करें।",5
+mclm_math100,9,ru,"График функции $f(x)=\frac{2x}{x^2-5x-14}$ имеет вертикальные асимптоты $x=a$ и $x=b$, и горизонтальную асимптоту $y=c$. Найдите $a+b+c$.",5
+mclm_math100,9,zh,函数 $f(x)=\frac{2x}{x^2-5x-14}$ 的图像有垂直渐近线 $x=a$ 和 $x=b$，以及水平渐近线 $y=c$。求 $a+b+c$。,5
+mclm_math100,9,ja,$f(x)=\frac{2x}{x^2-5x-14}$ のグラフには、垂直漸近線 $x=a$ と $x=b$、水平漸近線 $y=c$ があります。$a+b+c$ を求めなさい。,5
+mclm_math100,9,ar,يمتلك الرسم البياني للدالة $f(x)=\frac{2x}{x^2-5x-14}$ خطوط تقارب عمودية عند $x=a$ و $x=b$، وخط تقارب أفقي عند $y=c$. أوجد $a+b+c$.,5
+mclm_math100,9,fr,"Le graphe de $f(x)=\frac{2x}{x^2-5x-14}$ a des asymptotes verticales $x=a$ et $x=b$, et une asymptote horizontale $y=c$. Trouvez $a+b+c$.",5
+mclm_math100,9,sw,"Grafu ya $f(x)=\frac{2x}{x^2-5x-14}$ ina asymptoti wima $x=a$ na $x=b$, na asymptoti mlalo $y=c$. Tafuta $a+b+c$.",5
+mclm_math100,11,ne,"दुई-आयामिक भेक्टरहरू $\bold{v}$ का लागि 
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\] 
+हुने सबैभन्दा सानो सकारात्मक वास्तविक संख्या $C$ पत्ता लगाउनुहोस्।
+
+ध्यान दिनुहोस् कि दुई-आयामिक भेक्टर $\mathbf{a}$ को लागि, $\|\mathbf{a}\|$ $\mathbf{a}$ को परिमाण हो।",4
+mclm_math100,11,hi,"उस सबसे छोटे धनात्मक वास्तविक संख्या $C$ को खोजें जिसके लिए
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\] सभी द्वि-आयामी वेक्टर $\bold{v}$ के लिए सत्य हो।
+
+ध्यान दें कि एक द्वि-आयामी वेक्टर $\mathbf{a}$ के लिए, $\|\mathbf{a}\|$ $\mathbf{a}$ की परिमाण है।",4
+mclm_math100,11,ru,"Найдите наименьшее положительное действительное число $C$, для которого
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\]для всех двумерных векторов $\bold{v}.$
+
+Заметьте, что для двумерного вектора $\mathbf{a},$ $\|\mathbf{a}\|$ — это величина $\mathbf{a}.$",4
+mclm_math100,11,zh,"求最小的正实数 $C$，使得对于所有二维向量 $\bold{v}$，都有
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\]。
+
+注意，对于一个二维向量 $\mathbf{a}$，$\|\mathbf{a}\|$ 是 $\mathbf{a}$ 的模。",4
+mclm_math100,11,ja,"次の条件を満たす最小の正の実数 $C$ を求めなさい。
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\]
+ここで、$\bold{v}$ は任意の2次元ベクトルです。
+
+なお、2次元ベクトル $\mathbf{a}$ に対して、$\|\mathbf{a}\|$ は $\mathbf{a}$ の大きさを表します。",4
+mclm_math100,11,ar,"أوجد أصغر عدد حقيقي موجب $C$ بحيث
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\] لجميع المتجهات ثنائية الأبعاد $\bold{v}.$
+
+لاحظ أنه بالنسبة لمتجه ثنائي الأبعاد $\mathbf{a},$ فإن $\|\mathbf{a}\|$ هو مقدار $\mathbf{a}.$",4
+mclm_math100,11,fr,"Trouvez le plus petit nombre réel positif $C$ pour lequel
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\] pour tous les vecteurs bidimensionnels $\bold{v}.$
+
+Notez que pour un vecteur bidimensionnel $\mathbf{a},$ $\|\mathbf{a}\|$ est la magnitude de $\mathbf{a}.$",4
+mclm_math100,11,sw,"Tafuta nambari ndogo zaidi halisi chanya $C$ ambayo
+\[\left\| \begin{pmatrix} 2 & 3 \\ 0 & -2 \end{pmatrix} \bold{v} \right\| \le C \|\bold{v}\|\]kwa vektori zote za vipimo viwili $\bold{v}.$
+
+Kumbuka kwamba kwa vektori ya vipimo viwili $\mathbf{a},$ $\|\mathbf{a}\|$ ni ukubwa wa $\mathbf{a}.$",4
+mclm_math100,14,ne,$58_9 - 18_9$ गणना गर्नुहोस्। आफ्नो उत्तर आधार $9$ मा व्यक्त गर्नुहोस्।,40_9
+mclm_math100,14,hi,$58_9 - 18_9$ की गणना करें। अपने उत्तर को आधार $9$ में व्यक्त करें।,40_9
+mclm_math100,14,ru,Вычислите $58_9 - 18_9.$ Выразите ваш ответ в системе счисления с основанием $9.$,40_9
+mclm_math100,14,zh,计算 $58_9 - 18_9.$ 用 $9$ 进制表示你的答案。,40_9
+mclm_math100,14,ja,$58_9 - 18_9$ を計算しなさい。答えを基数 $9$ で表しなさい。,40_9
+mclm_math100,14,ar,احسب $58_9 - 18_9.$ عبّر عن إجابتك في الأساس $9.$,40_9
+mclm_math100,14,fr,Calculez $58_9 - 18_9.$ Exprimez votre réponse en base $9.$,40_9
+mclm_math100,14,sw,Hesabu $58_9 - 18_9.$ Onyesha jibu lako katika msingi $9.$,40_9
+mclm_math100,15,ne,"सरल बनाउनुहोस्
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,hi,"सरल करें
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,ru,"Упростите
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,zh,"化简
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,ja,"次の式を簡単にしなさい
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,ar,"بسط
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,fr,"Simplifiez
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,15,sw,"Rahisisha
+\[\frac{\sec x}{\sin x} - \frac{\sin x}{\cos x}.\]",\cot x
+mclm_math100,19,ne,"सम्पर्क गर्नुहोस् \[ f(x) =
+\begin{cases}
+ax^2 & \text{if } x \geq a,\\
+ax +2a& \text{if } x <a,
+\end{cases}
+\]जहाँ $a$ कुनै संख्या हो।
+
+$y=f(x)$ को ग्राफले प्रत्येक तेर्सो रेखालाई कम्तिमा एक पटक काट्ने गरी $a$ को सबैभन्दा ठूलो मान कति हो?",2
+mclm_math100,19,hi,"समारोह पर विचार करें \[ f(x) =
+\begin{cases}
+ax^2 & \text{if } x \geq a,\\
+ax +2a& \text{if } x <a,
+\end{cases}
+\]जहाँ $a$ कोई संख्या है।
+
+$a$ का सबसे बड़ा मान क्या है ताकि $y=f(x)$ का ग्राफ हर क्षैतिज रेखा को कम से कम एक बार काटे?",2
+mclm_math100,19,ru,"Рассмотрим функцию \[ f(x) =
+\begin{cases}
+ax^2 & \text{если } x \geq a,\\
+ax +2a& \text{если } x <a,
+\end{cases}
+\]где $a$ — некоторое число.
+
+Каково наибольшее значение $a$, при котором график $y=f(x)$ пересекает каждую горизонтальную линию хотя бы один раз?",2
+mclm_math100,19,zh,"考虑函数 \[ f(x) =
+\begin{cases}
+ax^2 & \text{if } x \geq a,\\
+ax +2a& \text{if } x <a,
+\end{cases}
+\]其中 $a$ 是某个数。
+
+求 $a$ 的最大值，使得 $y=f(x)$ 的图像与每一条水平线至少相交一次。",2
+mclm_math100,19,ja,"関数 \[ f(x) = \begin{cases} ax^2 & \text{if } x \geq a,\\ ax +2a& \text{if } x <a, \end{cases} \]を考えます。ただし、$a$ はある数です。
+
+$y=f(x)$ のグラフがすべての水平線と少なくとも1回交差するような最大の $a$ の値は何ですか？",2
+mclm_math100,19,ar,"اعتبر الدالة \[ f(x) =
+\begin{cases}
+ax^2 & \text{if } x \geq a,\\
+ax +2a& \text{if } x <a,
+\end{cases}
+\] حيث أن $a$ هو عدد ما.
+
+ما هي أكبر قيمة لـ $a$ بحيث يتقاطع الرسم البياني لـ $y=f(x)$ مع كل خط أفقي مرة واحدة على الأقل؟",2
+mclm_math100,19,fr,"Considérez la fonction \[ f(x) =
+\begin{cases}
+ax^2 & \text{si } x \geq a,\\
+ax +2a& \text{si } x <a,
+\end{cases}
+\]où $a$ est un nombre.
+
+Quelle est la plus grande valeur de $a$ telle que le graphe de $y=f(x)$ intersecte chaque ligne horizontale au moins une fois ?",2
+mclm_math100,19,sw,"Fikiria kazi \[ f(x) =
+\begin{cases}
+ax^2 & \text{ikiwa } x \geq a,\\
+ax +2a& \text{ikiwa } x <a,
+\end{cases}
+\]ambapo $a$ ni nambari fulani.
+
+Je, ni thamani kubwa zaidi ya $a$ ambayo grafu ya $y=f(x)$ inakata kila mstari wa usawa angalau mara moja?",2
+mclm_math100,27,ne,"मानौं $z$ एउटा जटिल संख्या हो जसले
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\] लाई सन्तुष्ट पार्छ। पत्ता लगाउनुहोस्
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,hi,"मान लें कि $z$ एक जटिल संख्या है जिसके लिए
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\] खोजें
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,ru,"Пусть $z$ — комплексное число, такое что
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\] Найдите
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,zh,"设 $z$ 是一个复数，使得
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\]求
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,ja,"$z$ を複素数とし、
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}\]
+を満たすとします。次を求めなさい。
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,ar,"ليكن $z$ عددًا مركبًا بحيث
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\] أوجد
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,fr,"Soit $z$ un nombre complexe tel que
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\] Trouvez
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,27,sw,"Acha $z$ kuwa namba tata kama
+\[z + \frac{1}{z} = \frac{1 + \sqrt{5}}{2}.\]Pata
+\[z^{85} + \frac{1}{z^{85}}.\]",-2
+mclm_math100,31,ne,यदि अंकगणितीय श्रेणीको चौथो पद $200$ छ र आठौं पद $500$ छ भने छैटौं पद के हो?,350
+mclm_math100,31,hi,"यदि एक अंकगणितीय अनुक्रम का चौथा पद $200$ है और आठवां पद $500$ है, तो छठा पद क्या है?",350
+mclm_math100,31,ru,"Если четвертый член арифметической последовательности равен $200$, а восьмой член равен $500$, то чему равен шестой член?",350
+mclm_math100,31,zh,如果一个等差数列的第四项是 $200$，第八项是 $500$，那么第六项是多少？,350
+mclm_math100,31,ja,等差数列の第4項が$200$で、第8項が$500$の場合、第6項はいくつですか？,350
+mclm_math100,31,ar,إذا كان الحد الرابع في متتالية حسابية هو $200$ والحد الثامن هو $500$، فما هو الحد السادس؟,350
+mclm_math100,31,fr,"Si le quatrième terme d'une suite arithmétique est $200$ et le huitième terme est $500$, quel est le sixième terme ?",350
+mclm_math100,31,sw,"Ikiwa neno la nne la mlolongo wa hesabu ni $200$ na neno la nane ni $500$, neno la sita ni lipi?",350
+mclm_math100,32,ne,$\frac{21}{2^2 \cdot 5^7}$ लाई समाप्त हुने दशमलवमा रूपान्तरण गर्नुहोस्।,.0000672
+mclm_math100,32,hi,$\frac{21}{2^2 \cdot 5^7}$ को एक समाप्त होने वाले दशमलव में परिवर्तित करें।,.0000672
+mclm_math100,32,ru,Преобразуйте $\frac{21}{2^2 \cdot 5^7}$ в конечную десятичную дробь.,.0000672
+mclm_math100,32,zh,将 $\frac{21}{2^2 \cdot 5^7}$ 转换为一个有限小数。,.0000672
+mclm_math100,32,ja,$\frac{21}{2^2 \cdot 5^7}$ を有限小数に変換してください。,.0000672
+mclm_math100,32,ar,حوّل $\frac{21}{2^2 \cdot 5^7}$ إلى عدد عشري منتهي.,.0000672
+mclm_math100,32,fr,Convertir $\frac{21}{2^2 \cdot 5^7}$ en un nombre décimal fini.,.0000672
+mclm_math100,32,sw,Geuza $\frac{21}{2^2 \cdot 5^7}$ kuwa desimali inayomalizika.,.0000672
+mclm_math100,33,ne,१०० र १५० दुबैको गुणनखण्ड हुने कति सकारात्मक दुई-अङ्कीय पूर्णांकहरू छन्?,3
+mclm_math100,33,hi,100 और 150 दोनों के कितने धनात्मक दो-अंकीय पूर्णांक गुणक हैं?,3
+mclm_math100,33,ru,"Сколько положительных двузначных чисел являются делителями как 100, так и 150?",3
+mclm_math100,33,zh,有多少个正的两位数整数是100和150的公因数？,3
+mclm_math100,33,ja,100と150の両方の約数である正の二桁の整数はいくつありますか？,3
+mclm_math100,33,ar,كم عدد الأعداد الصحيحة الموجبة المكونة من رقمين التي تعتبر عوامل لكل من 100 و 150؟,3
+mclm_math100,33,fr,Combien d'entiers positifs à deux chiffres sont des facteurs à la fois de 100 et de 150 ?,3
+mclm_math100,33,sw,Ni nambari ngapi chanya za tarakimu mbili ambazo ni vipengele vya 100 na 150?,3
+mclm_math100,37,ne,"बिन्दु $(a, b)$ समीकरण $3x + 2y = 12$ भएको रेखामा पर्दछ। जब $a = 4$ हुन्छ, $b$ को मान के हुन्छ?",0
+mclm_math100,37,hi,"बिंदु $(a, b)$ उस रेखा पर स्थित है जिसकी समीकरण $3x + 2y = 12$ है। जब $a = 4$ है, तो $b$ का मान क्या है?",0
+mclm_math100,37,ru,"Точка $(a, b)$ лежит на прямой с уравнением $3x + 2y = 12.$ Когда $a = 4$, чему равно значение $b$?",0
+mclm_math100,37,zh,"点 $(a, b)$ 位于方程 $3x + 2y = 12$ 的直线上。当 $a = 4$ 时，$b$ 的值是多少？",0
+mclm_math100,37,ja,"点 $(a, b)$ は方程式 $3x + 2y = 12$ の直線上にあります。$a = 4$ のとき、$b$ の値はいくつですか？",0
+mclm_math100,37,ar,"النقطة $(a, b)$ تقع على الخط الذي معادلته $3x + 2y = 12.$ عندما $a = 4$، ما هي قيمة $b$؟",0
+mclm_math100,37,fr,"Le point $(a, b)$ se trouve sur la ligne avec l'équation $3x + 2y = 12.$ Lorsque $a = 4$, quelle est la valeur de $b$ ?",0
+mclm_math100,37,sw,"Nukta $(a, b)$ iko kwenye mstari wenye mlingano $3x + 2y = 12.$ Wakati $a = 4$, thamani ya $b$ ni ipi?",0
+mclm_math100,39,ne,४५० को सबैभन्दा सानो सकारात्मक गुणनफल कुन हो जसका अंकहरू सबै शून्य र एक मात्र छन्?,"11,\! 111,\! 111,\! 100"
+mclm_math100,39,hi,450 का सबसे छोटा धनात्मक गुणज कौन सा है जिसके सभी अंक शून्य और एक हैं?,"11,\! 111,\! 111,\! 100"
+mclm_math100,39,ru,"Какое наименьшее положительное кратное 450, все цифры которого равны нулю или единице?","11,\! 111,\! 111,\! 100"
+mclm_math100,39,zh,450 的最小正倍数，其所有数字均为零和一，是多少？,"11,\! 111,\! 111,\! 100"
+mclm_math100,39,ja,450の正の倍数のうち、すべての桁が0と1である最小の数は何ですか？,"11,\! 111,\! 111,\! 100"
+mclm_math100,39,ar,ما هو أصغر مضاعف موجب للعدد 450 تكون جميع أرقامه صفراً وواحداً؟,"11,\! 111,\! 111,\! 100"
+mclm_math100,39,fr,Quel est le plus petit multiple positif de 450 dont les chiffres sont tous des zéros et des uns ?,"11,\! 111,\! 111,\! 100"
+mclm_math100,39,sw,"Je, ni kipi ni kipi kidogo zaidi chanya cha 450 ambacho tarakimu zake zote ni sufuri na moja?","11,\! 111,\! 111,\! 100"
+mclm_math100,41,ne,भिन्न $\frac{4321}{5^7\cdot2^8}$ को समाप्त हुने दशमलव प्रतिनिधित्वमा अंकहरूको योगफल कति हुन्छ?,14
+mclm_math100,41,hi,भिन्न $\frac{4321}{5^7\cdot2^8}$ के समाप्त होने वाले दशमलव रूप में अंकों का योग क्या है?,14
+mclm_math100,41,ru,Какова сумма цифр в конечной десятичной записи дроби $\frac{4321}{5^7\cdot2^8}$?,14
+mclm_math100,41,zh,在分数 $\frac{4321}{5^7\cdot2^8}$ 的有限小数表示中，数字的和是多少？,14
+mclm_math100,41,ja,分数 $\frac{4321}{5^7\cdot2^8}$ の有限小数表現における各桁の数字の合計は何ですか？,14
+mclm_math100,41,ar,ما هو مجموع الأرقام في التمثيل العشري المنتهي للكسر $\frac{4321}{5^7\cdot2^8}$؟,14
+mclm_math100,41,fr,Quelle est la somme des chiffres dans la représentation décimale finie de la fraction $\frac{4321}{5^7\cdot2^8}$ ?,14
+mclm_math100,41,sw,"Je, jumla ya tarakimu katika uwakilishi wa desimali unaomalizika wa sehemu $\frac{4321}{5^7\cdot2^8}$ ni nini?",14
+mclm_math100,42,ne,$\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ$ को मान पत्ता लगाउनुहोस्।,\frac{9}{256}
+mclm_math100,42,hi,$\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ$ का मान ज्ञात कीजिए।,\frac{9}{256}
+mclm_math100,42,ru,Найдите $\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ.$,\frac{9}{256}
+mclm_math100,42,zh,求 $\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ.$,\frac{9}{256}
+mclm_math100,42,ja,$\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ$ を求めなさい。,\frac{9}{256}
+mclm_math100,42,ar,أوجد $\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ.$,\frac{9}{256}
+mclm_math100,42,fr,Trouvez $\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ.$,\frac{9}{256}
+mclm_math100,42,sw,Tafuta $\sin 20^\circ \sin 40^\circ \sin 60^\circ \sin 80^\circ \sin 100^\circ \sin 120^\circ \sin 140^\circ \sin 160^\circ.$,\frac{9}{256}
+mclm_math100,45,ne,"$f$ लाई $f(x) = x^3 - 49x^2 + 623x - 2015$ द्वारा परिभाषित गरिएको कार्य मानौं, र $g(x) = f(x + 5)$ हो। $g$ का मूलहरूको योग गणना गर्नुहोस्।",34
+mclm_math100,45,hi,"मान लें $f$ वह फलन है जिसे $f(x) = x^3 - 49x^2 + 623x - 2015$ द्वारा परिभाषित किया गया है, और $g(x) = f(x + 5)$ है। $g$ के मूलों का योग गणना करें।",34
+mclm_math100,45,ru,"Пусть $f$ — функция, определенная как $f(x) = x^3 - 49x^2 + 623x - 2015,$ и пусть $g(x) = f(x + 5).$ Найдите сумму корней $g.$",34
+mclm_math100,45,zh,设 $f$ 是由 $f(x) = x^3 - 49x^2 + 623x - 2015$ 定义的函数，并且设 $g(x) = f(x + 5)$。计算 $g$ 的根的和。,34
+mclm_math100,45,ja,$f$ を $f(x) = x^3 - 49x^2 + 623x - 2015$ で定義される関数とし、$g(x) = f(x + 5)$ とします。$g$ の根の和を求めなさい。,34
+mclm_math100,45,ar,"لتكن $f$ الدالة المعرفة بـ $f(x) = x^3 - 49x^2 + 623x - 2015,$ ولتكن $g(x) = f(x + 5).$ احسب مجموع جذور $g.$",34
+mclm_math100,45,fr,"Soit $f$ la fonction définie par $f(x) = x^3 - 49x^2 + 623x - 2015,$ et soit $g(x) = f(x + 5).$ Calculez la somme des racines de $g.$",34
+mclm_math100,45,sw,"Wacha $f$ iwe kazi iliyoelezwa na $f(x) = x^3 - 49x^2 + 623x - 2015,$ na wacha $g(x) = f(x + 5).$ Hesabu jumla ya mizizi ya $g.$",34
+mclm_math100,46,ne,"गणना गर्नुहोस्
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,46,hi,"गणना करें
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,46,ru,"Вычислите
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,46,zh,"计算
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,46,ja,"\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}\]
+を計算せよ。",12
+mclm_math100,46,ar,"احسب
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,46,fr,"Calculez
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,46,sw,"Hesabu
+\[\frac{1}{\cos^2 10^\circ} + \frac{1}{\sin^2 20^\circ} + \frac{1}{\sin^2 40^\circ}.\]",12
+mclm_math100,47,ne,यदि यसको भित्री कोणहरू मध्ये एक बाहेक सबैको योगफल $1070^{\circ}$ छ भने एक उत्तल बहुभुजमा कति भुजा हुनेछन्?,8
+mclm_math100,47,hi,"यदि एक उत्तल बहुभुज के सभी आंतरिक कोणों का योग, एक को छोड़कर, $1070^{\circ}$ है, तो उसमें कितने भुजाएँ होंगी?",8
+mclm_math100,47,ru,"Сколько сторон будет у выпуклого многоугольника, если сумма всех его внутренних углов, кроме одного, равна $1070^{\circ}$?",8
+mclm_math100,47,zh,如果一个凸多边形的所有内角之和（除去一个）是 $1070^{\circ}$，那么这个多边形有多少条边？,8
+mclm_math100,47,ja,凸多角形の内角のうち1つを除くすべての角の合計が$1070^{\circ}$である場合、その多角形には何辺あるでしょうか？,8
+mclm_math100,47,ar,كم عدد الأضلاع في مضلع محدب إذا كان مجموع جميع زواياه الداخلية باستثناء واحدة منها هو $1070^{\circ}$؟,8
+mclm_math100,47,fr,Combien de côtés y aurait-il dans un polygone convexe si la somme de tous ses angles intérieurs sauf un est de $1070^{\circ}$ ?,8
+mclm_math100,47,sw,"Je, kungekuwa na pande ngapi katika poligoni ya mbonyeo ikiwa jumla ya pembe zake za ndani isipokuwa moja ni $1070^{\circ}$?",8
+mclm_math100,49,ne,$1$ घन फिटको आयतन भएको घनको कुल सतह क्षेत्रफल कति वर्ग इन्चमा हुन्छ?,864 \mbox{ inches}^2
+mclm_math100,49,hi,"एक घन के कुल सतह क्षेत्रफल, वर्ग इंच में, क्या है जिसका आयतन $1$ घन फुट है?",864 \mbox{ inches}^2
+mclm_math100,49,ru,"Какова общая площадь поверхности, в квадратных дюймах, куба с объемом $1$ кубический фут?",864 \mbox{ inches}^2
+mclm_math100,49,zh,一个体积为 $1$ 立方英尺的立方体的总表面积是多少平方英寸？,864 \mbox{ inches}^2
+mclm_math100,49,ja,体積が $1$ 立方フィートの立方体の表面積は、平方インチでいくつですか？,864 \mbox{ inches}^2
+mclm_math100,49,ar,ما هي المساحة السطحية الكلية، بالبوصة المربعة، لمكعب حجمه $1$ قدم مكعب؟,864 \mbox{ inches}^2
+mclm_math100,49,fr,"Quelle est la surface totale, en pouces carrés, d'un cube ayant un volume de $1$ pied cube ?",864 \mbox{ inches}^2
+mclm_math100,49,sw,"Je, jumla ya eneo la uso, kwa inchi za mraba, la mchemraba wenye ujazo wa futi moja ya ujazo ni kiasi gani?",864 \mbox{ inches}^2
+mclm_math100,50,ne,संख्या $5+\sqrt{3}$ र यसको रेडिकल संयुग्मको गुणनफल गणना गर्नुहोस्।,22
+mclm_math100,50,hi,संख्या $5+\sqrt{3}$ और उसके रेडिकल संयुग्मज का गुणनफल गणना करें।,22
+mclm_math100,50,ru,Вычислите произведение числа $5+\sqrt{3}$ и его сопряженного радикала.,22
+mclm_math100,50,zh,计算数 $5+\sqrt{3}$ 与其共轭根的乘积。,22
+mclm_math100,50,ja,$5+\sqrt{3}$ とその共役根の積を計算してください。,22
+mclm_math100,50,ar,احسب ناتج ضرب العدد $5+\sqrt{3}$ ومرافقه الجذري.,22
+mclm_math100,50,fr,Calculez le produit du nombre $5+\sqrt{3}$ et de son conjugué radical.,22
+mclm_math100,50,sw,Hesabu bidhaa ya nambari $5+\sqrt{3}$ na kiambatanisho chake cha radical.,22
+mclm_math100,51,ne,"१, ३, ५, ७, $\dots$ जस्ता विषम संख्याहरूको अनुक्रमको २००३औं पद के हो?",4005
+mclm_math100,51,hi,"विषम संख्याओं के अनुक्रम 1, 3, 5, 7, $\dots$ का 2003वां पद क्या है?",4005
+mclm_math100,51,ru,"Какой 2003-й член последовательности нечетных чисел 1, 3, 5, 7, $\dots$?",4005
+mclm_math100,51,zh,"数列1, 3, 5, 7, $\dots$的第2003项是什么？",4005
+mclm_math100,51,ja,"1, 3, 5, 7, $\dots$ の奇数列の2003番目の項は何ですか？",4005
+mclm_math100,51,ar,ما هو الحد رقم 2003 في تسلسل الأعداد الفردية 1، 3، 5، 7، $\dots$؟,4005
+mclm_math100,51,fr,"Quel est le 2003ème terme de la suite des nombres impairs 1, 3, 5, 7, $\dots$ ?",4005
+mclm_math100,51,sw,"Je, ni neno gani la 2003 katika mlolongo wa nambari zisizo za kawaida 1, 3, 5, 7, $\dots$?",4005
+mclm_math100,52,ne,$f(x) = 2x-3$ र $g(x) = x+1$ होस्। $g(f(5)-1)$ को मान के हो?,7
+mclm_math100,52,hi,"यदि $f(x) = 2x-3$ और $g(x) = x+1$ है, तो $g(f(5)-1)$ का मान क्या है?",7
+mclm_math100,52,ru,Пусть $f(x) = 2x-3$ и $g(x) = x+1$. Каково значение $g(f(5)-1)$?,7
+mclm_math100,52,zh,设 $f(x) = 2x-3$ 且 $g(x) = x+1$。那么 $g(f(5)-1)$ 的值是多少？,7
+mclm_math100,52,ja,$f(x) = 2x-3$ および $g(x) = x+1$ とする。$g(f(5)-1)$ の値は何ですか？,7
+mclm_math100,52,ar,لتكن $f(x) = 2x-3$ و $g(x) = x+1$. ما هي قيمة $g(f(5)-1)$؟,7
+mclm_math100,52,fr,Soient $f(x) = 2x-3$ et $g(x) = x+1$. Quelle est la valeur de $g(f(5)-1)$ ?,7
+mclm_math100,52,sw,"Wacha $f(x) = 2x-3$ na $g(x) = x+1$. Je, thamani ya $g(f(5)-1)$ ni ipi?",7
+mclm_math100,53,ne,\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\] को सबै समाधानहरू फेला पार्नुहोस्। सबै समाधानहरूलाई अल्पविरामले छुट्याएर लेख्नुहोस्।,3 \pm 2 \sqrt{2}
+mclm_math100,53,hi,"सभी हल खोजें
+\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\] सभी हल दर्ज करें, उन्हें कॉमा से अलग करें।",3 \pm 2 \sqrt{2}
+mclm_math100,53,ru,"Найдите все решения уравнения
+\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\]Введите все решения, разделенные запятыми.",3 \pm 2 \sqrt{2}
+mclm_math100,53,zh,"求解以下方程的所有解
+\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\]输入所有解，用逗号分隔。",3 \pm 2 \sqrt{2}
+mclm_math100,53,ja,\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}\] のすべての解を見つけてください。すべての解をコンマで区切って入力してください。,3 \pm 2 \sqrt{2}
+mclm_math100,53,ar,"أوجد جميع الحلول للمعادلة
+\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\] أدخل جميع الحلول، مفصولة بفواصل.",3 \pm 2 \sqrt{2}
+mclm_math100,53,fr,"Trouvez toutes les solutions de
+\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\]Entrez toutes les solutions, séparées par des virgules.",3 \pm 2 \sqrt{2}
+mclm_math100,53,sw,"Pata suluhisho zote za
+\[\sin \left( \tan^{-1} (x) + \cot^{-1} \left( \frac{1}{x} \right) \right) = \frac{1}{3}.\]Ingiza suluhisho zote, zikitenganishwa kwa koma.",3 \pm 2 \sqrt{2}
+mclm_math100,54,ne,"एक रेखा यसरी परिभाषित गरिएको छ
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\] अर्को रेखा यसरी परिभाषित गरिएको छ
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\] यी दुई रेखाहरू समानान्तर छन्। यी दुई रेखाहरू बीचको दूरी पत्ता लगाउनुहोस्।",7
+mclm_math100,54,hi,"एक रेखा द्वारा परिभाषित है
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\] दूसरी रेखा द्वारा परिभाषित है
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\] ये दोनों रेखाएं समानांतर हैं। इन दोनों रेखाओं के बीच की दूरी ज्ञात कीजिए।",7
+mclm_math100,54,ru,"Одна прямая задана уравнением
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\]Другая прямая задана уравнением
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\]Эти две прямые параллельны. Найдите расстояние между этими двумя прямыми.",7
+mclm_math100,54,zh,"一条直线由以下方程定义
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\]另一条直线由以下方程定义
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\]这两条直线是平行的。求这两条直线之间的距离。",7
+mclm_math100,54,ja,"1本の直線は次のように定義されます：
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\]もう1本の直線は次のように定義されます：
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\]これらの2本の直線は平行です。これら2本の直線間の距離を求めなさい。",7
+mclm_math100,54,ar,"يتم تعريف خط واحد بواسطة
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\]يتم تعريف خط آخر بواسطة
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\]هاتان الخطتان متوازيتان. أوجد المسافة بين هذين الخطين.",7
+mclm_math100,54,fr,"Une ligne est définie par
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\]Une autre ligne est définie par
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\]Ces deux lignes sont parallèles. Trouvez la distance entre ces deux lignes.",7
+mclm_math100,54,sw,"Mstari mmoja umeelezwa na
+\[\begin{pmatrix} 3 \\ -10 \\ 1 \end{pmatrix} + t \begin{pmatrix} 2 \\ -9 \\ -2 \end{pmatrix}.\]Mstari mwingine umeelezwa na
+\[\begin{pmatrix} -5 \\ -3 \\ 6 \end{pmatrix} + u \begin{pmatrix} 4 \\ -18 \\ -4 \end{pmatrix}.\]Mistari hii miwili ni sambamba. Tafuta umbali kati ya mistari hii miwili.",7
+mclm_math100,55,ne,"तलका बिन्दुहरूलाई शीर्षबिन्दुहरू मान्ने आयताकार क्षेत्रलाई विचार गर्नुहोस्: $$(5,4), (-5,4), (-5,-4), (5,-4).$$ यो आयताकार क्षेत्रको भित्री भागमा पूर्णांक निर्देशांक भएका कति बिन्दुहरू हुनेछन?",63
+mclm_math100,55,hi,"वर्गाकार क्षेत्र को निम्नलिखित बिंदुओं के साथ शीर्षों के रूप में मानें: $$(5,4), (-5,4), (-5,-4), (5,-4).$$ इस वर्गाकार क्षेत्र के आंतरिक भाग में कितने बिंदु पूर्णांक निर्देशांक के साथ होंगे?",63
+mclm_math100,55,ru,"Рассмотрим прямоугольную область с вершинами в следующих точках: $$(5,4), (-5,4), (-5,-4), (5,-4).$$ Сколько точек с целыми координатами будет строго внутри этой прямоугольной области?",63
+mclm_math100,55,zh,"考虑以下列点为顶点的矩形区域：$$(5,4), (-5,4), (-5,-4), (5,-4)。$$ 在这个矩形区域的内部，具有整数坐标的点有多少个？",63
+mclm_math100,55,ja,"次の点を頂点とする長方形の領域を考えます: $$(5,4), (-5,4), (-5,-4), (5,-4).$$ この長方形の領域の内部に厳密に含まれる整数座標を持つ点は何個ありますか？",63
+mclm_math100,55,ar,"اعتبر المنطقة المستطيلة التي تحتوي على النقاط التالية كقمم: $$(5,4), (-5,4), (-5,-4), (5,-4).$$ كم عدد النقاط ذات الإحداثيات الصحيحة التي ستكون داخل هذه المنطقة المستطيلة بشكل صارم؟",63
+mclm_math100,55,fr,"Considérez la région rectangulaire avec les points suivants comme sommets : $$(5,4), (-5,4), (-5,-4), (5,-4).$$ Combien de points avec des coordonnées entières seront strictement à l'intérieur de cette région rectangulaire ?",63
+mclm_math100,55,sw,"Fikiria eneo la mstatili lenye alama zifuatazo kama vilele: $$(5,4), (-5,4), (-5,-4), (5,-4).$$ Ni alama ngapi zenye kuratibu za nambari kamili zitakuwa ndani kabisa ya eneo hili la mstatili?",63
+mclm_math100,58,ne,"मानौं कि $ABCD$ एउटा ट्रापेजोइड हो जसमा $\overline{AD}|| \overline{BC}$ छ। दिइएको छ $\overline{AC}\perp\overline{CD}$, $\overline{AC}$ ले कोण $\angle BAD$ लाई द्विभाजित गर्छ, र $[ABCD]=42$ छ भने, $[\triangle ACD]$ गणना गर्नुहोस्।",28
+mclm_math100,58,hi,"मान लीजिए कि $ABCD$ एक समलंब है जिसमें $\overline{AD}|| \overline{BC}$ है। दिया गया है कि $\overline{AC}\perp\overline{CD}$, $\overline{AC}$ कोण $\angle BAD$ को द्विभाजित करता है, और $[ABCD]=42$ है, तो $[\triangle ACD]$ की गणना करें।",28
+mclm_math100,58,ru,"Предположим, что $ABCD$ — это трапеция, в которой $\overline{AD}|| \overline{BC}$. Дано, что $\overline{AC}\perp\overline{CD}$, $\overline{AC}$ биссектриса угла $\angle BAD$, и $[ABCD]=42$. Тогда вычислите $[\triangle ACD]$.",28
+mclm_math100,58,zh,假设 $ABCD$ 是一个梯形，其中 $\overline{AD}|| \overline{BC}$。已知 $\overline{AC}\perp\overline{CD}$，$\overline{AC}$ 平分角 $\angle BAD$，且 $[ABCD]=42$，那么计算 $[\triangle ACD]$。,28
+mclm_math100,58,ja,$ABCD$ が台形であり、$\overline{AD}|| \overline{BC}$ であるとします。$\overline{AC}\perp\overline{CD}$、$\overline{AC}$ が角 $\angle BAD$ を二等分し、$[ABCD]=42$ のとき、$[\triangle ACD]$ を計算してください。,28
+mclm_math100,58,ar,افترض أن $ABCD$ هو شبه منحرف حيث $\overline{AD}|| \overline{BC}$. معطى أن $\overline{AC}\perp\overline{CD}$، $\overline{AC}$ ينصف الزاوية $\angle BAD$، و $[ABCD]=42$، احسب $[\triangle ACD]$.,28
+mclm_math100,58,fr,"Supposons que $ABCD$ soit un trapèze dans lequel $\overline{AD}|| \overline{BC}$. Étant donné que $\overline{AC}\perp\overline{CD}$, $\overline{AC}$ bisecte l'angle $\angle BAD$, et $[ABCD]=42$, calculez $[\triangle ACD]$.",28
+mclm_math100,58,sw,"Fikiria kwamba $ABCD$ ni trapezoidi ambapo $\overline{AD}|| \overline{BC}$. Imepewa $\overline{AC}\perp\overline{CD}$, $\overline{AC}$ inagawanya pembe $\angle BAD$, na $[ABCD]=42$, basi hesabu $[\triangle ACD]$.",28
+mclm_math100,59,ne,"यदि $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$ भने, $x$ को मान पत्ता लगाउनुहोस्। आफ्नो उत्तरलाई सबैभन्दा सरल भिन्नात्मक रूपमा व्यक्त गर्नुहोस्।",\frac9{19}
+mclm_math100,59,hi,"यदि $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$, तो $x$ के लिए हल करें। अपने उत्तर को सबसे सरल भिन्नात्मक रूप में व्यक्त करें।",\frac9{19}
+mclm_math100,59,ru,"Если $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$, найдите $x$. Выразите ваш ответ в виде простейшей дроби.",\frac9{19}
+mclm_math100,59,zh,如果 $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$，求 $x$。请将你的答案以最简分数形式表示。,\frac9{19}
+mclm_math100,59,ja,$\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$ のとき、$x$ を解きなさい。答えは最も簡単な分数の形で表しなさい。,\frac9{19}
+mclm_math100,59,ar,إذا كان $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$، احسب قيمة $x$. عبّر عن إجابتك في أبسط صورة كسرية.,\frac9{19}
+mclm_math100,59,fr,"Si $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$, résolvez pour $x$. Exprimez votre réponse sous forme fractionnaire la plus simple.",\frac9{19}
+mclm_math100,59,sw,"Ikiwa $\frac{\sqrt{2x}}{\sqrt{3x-1}}=\frac32$, tafuta $x$. Onyesha jibu lako katika umbo rahisi zaidi la sehemu.",\frac9{19}
+mclm_math100,60,ne,सञ्चालन @ यसरी परिभाषित गरिएको छ $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ सरलिकृत भिन्नहरू $\frac{p}{q}$ को लागि। $\frac{7}{30}@\frac{10}{21}$ को सरलिकृत मान के हो?,49
+mclm_math100,60,hi,संचालन @ को इस प्रकार परिभाषित किया गया है $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ सरल भिन्नों $\frac{p}{q}$ के लिए। $\frac{7}{30}@\frac{10}{21}$ का सरलित मान क्या है?,49
+mclm_math100,60,ru,Операция @ определяется как $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ для упрощенных дробей $\frac{p}{q}$. Каково упрощенное значение $\frac{7}{30}@\frac{10}{21}$?,49
+mclm_math100,60,zh,运算 @ 被定义为 $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$，其中 $\frac{p}{q}$ 是简化分数。求 $\frac{7}{30}@\frac{10}{21}$ 的简化值是多少？,49
+mclm_math100,60,ja,演算 @ は、既約分数 $\frac{p}{q}$ に対して $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ と定義されています。$\frac{7}{30}@\frac{10}{21}$ の既約値は何ですか？,49
+mclm_math100,60,ar,العملية @ تُعرّف على أنها $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ للكسور المبسطة $\frac{p}{q}$. ما هو القيمة المبسطة لـ $\frac{7}{30}@\frac{10}{21}$؟,49
+mclm_math100,60,fr,L'opération @ est définie comme $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ pour les fractions simplifiées $\frac{p}{q}$. Quelle est la valeur simplifiée de $\frac{7}{30}@\frac{10}{21}$ ?,49
+mclm_math100,60,sw,"Operesheni @ inafafanuliwa kama $\frac{m}{n}@\frac{p}{q} = (m)(p)\left(\frac{q}{n}\right)$ kwa sehemu zilizorahisishwa $\frac{p}{q}$. Je, thamani iliyorahisishwa ya $\frac{7}{30}@\frac{10}{21}$ ni ipi?",49
+mclm_math100,65,ne,एक साइकल २० फिट प्रति मिनेटको गतिमा यात्रा गरिरहेको छ। साइकलको गति इन्च प्रति सेकेन्डमा कसरी व्यक्त गर्न सकिन्छ?,4
+mclm_math100,65,hi,एक साइकिल 20 फीट प्रति मिनट की गति से चल रही है। साइकिल की गति इंच प्रति सेकंड में कितनी होगी?,4
+mclm_math100,65,ru,"Велосипед движется со скоростью 20 футов в минуту. Какова скорость велосипеда, выраженная в дюймах в секунду?",4
+mclm_math100,65,zh,一辆自行车以每分钟 20 英尺的速度行驶。自行车的速度用每秒多少英寸表示？,4
+mclm_math100,65,ja,自転車は1分間に20フィートの速度で走っています。自転車の速度をインチ毎秒で表すとどうなりますか？,4
+mclm_math100,65,ar,تسير دراجة بسرعة 20 قدمًا في الدقيقة. ما هي سرعة الدراجة معبراً عنها بالبوصات في الثانية؟,4
+mclm_math100,65,fr,Un vélo se déplace à 20 pieds par minute. Quelle est la vitesse du vélo exprimée en pouces par seconde ?,4
+mclm_math100,65,sw,"Baiskeli inasafiri kwa miguu 20 kwa dakika. Je, kasi ya baiskeli hiyo ni kiasi gani ikielezwa kwa inchi kwa sekunde?",4
+mclm_math100,66,ne,"एक सिनेट समितिमा ८ जना रिपब्लिकन र ६ जना डेमोक्र्याट छन्। ५ सदस्यहरूको उपसमिति कसरी बनाउने जसमा प्रत्येक पार्टीबाट कम्तिमा एक सदस्य हुन्छ, कति तरिकाहरू छन्?",1940
+mclm_math100,66,hi,एक सीनेट समिति में 8 रिपब्लिकन और 6 डेमोक्रेट हैं। हम 5 सदस्यों की एक उपसमिति कितने तरीकों से बना सकते हैं जिसमें प्रत्येक पार्टी से कम से कम एक सदस्य हो?,1940
+mclm_math100,66,ru,"В комитете Сената 8 республиканцев и 6 демократов. Сколькими способами можно сформировать подкомитет из 5 членов, в котором будет хотя бы один представитель от каждой партии?",1940
+mclm_math100,66,zh,一个参议院委员会有8名共和党人和6名民主党人。我们可以用多少种方式组成一个有5名成员的小组委员会，并且每个党派至少有一名成员？,1940
+mclm_math100,66,ja,上院委員会には8人の共和党員と6人の民主党員がいます。各党から少なくとも1人のメンバーを含む5人の小委員会を何通りの方法で形成できますか？,1940
+mclm_math100,66,ar,لدى لجنة مجلس الشيوخ 8 جمهوريين و6 ديمقراطيين. كم عدد الطرق التي يمكننا بها تشكيل لجنة فرعية مكونة من 5 أعضاء تحتوي على عضو واحد على الأقل من كل حزب؟,1940
+mclm_math100,66,fr,Un comité du Sénat compte 8 Républicains et 6 Démocrates. De combien de façons peut-on former un sous-comité de 5 membres qui compte au moins un membre de chaque parti ?,1940
+mclm_math100,66,sw,Kamati ya Seneti ina Warepublican 8 na Wademocrat 6. Ni kwa njia ngapi tunaweza kuunda kamati ndogo ya wanachama 5 ambayo ina angalau mwanachama mmoja kutoka kila chama?,1940
+mclm_math100,67,ne,$513^2 - 487^2$ को मान कति हो?,26000
+mclm_math100,67,hi,$513^2 - 487^2$ का मान क्या है?,26000
+mclm_math100,67,ru,Каково значение $513^2 - 487^2$?,26000
+mclm_math100,67,zh,$513^2 - 487^2$ 的值是多少？,26000
+mclm_math100,67,ja,$513^2 - 487^2$ の値は何ですか？,26000
+mclm_math100,67,ar,ما هي قيمة $513^2 - 487^2$؟,26000
+mclm_math100,67,fr,Quelle est la valeur de $513^2 - 487^2$ ?,26000
+mclm_math100,67,sw,"Je, thamani ya $513^2 - 487^2$ ni ipi?",26000
+mclm_math100,70,ne,"सरल बनाउनुहोस्
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,hi,"सरल करें
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,ru,"Упростите
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,zh,"化简
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,ja,"次を簡単にしなさい
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,ar,"بسط
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,fr,"Simplifiez
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,70,sw,"Rahisisha
+\[\cos \left( \frac{2 \pi}{15} \right) \cos \left (\frac {4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac {16 \pi}{15} \right).\]",\frac{1}{16}
+mclm_math100,72,ne,२७ लगातार सकारात्मक पूर्णांकहरूको योगफल $3^7$ छ। तिनीहरूको माध्यिका के हो?,81
+mclm_math100,72,hi,27 लगातार सकारात्मक पूर्णांकों का योग $3^7$ है। उनका माध्यिका क्या है?,81
+mclm_math100,72,ru,Сумма 27 последовательных положительных целых чисел равна $3^7$. Каково их медианное значение?,81
+mclm_math100,72,zh,27个连续正整数的和是$3^7$。它们的中位数是多少？,81
+mclm_math100,72,ja,27個の連続する正の整数の合計が $3^7$ です。それらの中央値は何ですか？,81
+mclm_math100,72,ar,مجموع 27 عددًا صحيحًا متتاليًا موجبًا هو $3^7$. ما هو الوسيط لهذه الأعداد؟,81
+mclm_math100,72,fr,La somme de 27 entiers consécutifs positifs est $3^7$. Quelle est leur médiane ?,81
+mclm_math100,72,sw,"Jumla ya nambari 27 mfululizo za nambari nzima chanya ni $3^7$. Je, wastani wao ni upi?",81
+mclm_math100,73,ne,कुन वास्तविक $x$ का मानहरूको लागि $-4<x^{4}+4x^{2}<21$ सन्तुष्ट हुन्छ? आफ्नो उत्तरलाई अन्तराल नोटेशनमा व्यक्त गर्नुहोस्।,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,hi,किस वास्तविक $x$ के लिए $-4<x^{4}+4x^{2}<21$ संतुष्ट होता है? अपने उत्तर को अंतराल संकेत में व्यक्त करें।,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,ru,Для каких действительных значений $x$ выполняется неравенство $-4<x^{4}+4x^{2}<21$? Выразите ваш ответ в виде интервала.,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,zh,对于哪些实数 $x$，不等式 $-4<x^{4}+4x^{2}<21$ 成立？用区间表示法表达你的答案。,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,ja,どの実数 $x$ に対して $-4<x^{4}+4x^{2}<21$ が成り立ちますか？答えを区間表示で表してください。,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,ar,ما هي القيم الحقيقية لـ $x$ التي تحقق $-4<x^{4}+4x^{2}<21$؟ عبّر عن إجابتك باستخدام ترميز الفترات.,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,fr,Pour quelles valeurs réelles de $x$ l'inégalité $-4<x^{4}+4x^{2}<21$ est-elle satisfaite ? Exprimez votre réponse en notation d'intervalle.,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,73,sw,Kwa thamani zipi halisi za $x$ ambapo $-4<x^{4}+4x^{2}<21$ inatimizwa? Eleza jibu lako kwa kutumia noti ya vipindi.,"(-\sqrt{3}, \sqrt{3})"
+mclm_math100,79,ne,"उत्पत्तिबिन्दु र $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ को ग्राफको कुनै बिन्दु बीचको सबैभन्दा सानो दूरीलाई $\sqrt{a}/b$ को रूपमा व्यक्त गर्न सकिन्छ, जहाँ $a$ र $b$ सकारात्मक पूर्णांकहरू हुन् र $a$ एक भन्दा ठूलो कुनै पनि पूर्णांकको वर्गले विभाज्य छैन। $a+b$ पत्ता लगाउनुहोस्।",12
+mclm_math100,79,hi,"मूल बिंदु और $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ के ग्राफ पर एक बिंदु के बीच की सबसे छोटी दूरी को $\sqrt{a}/b$ के रूप में व्यक्त किया जा सकता है, जहाँ $a$ और $b$ धनात्मक पूर्णांक हैं और $a$ किसी भी एक से अधिक पूर्णांक के वर्ग से विभाज्य नहीं है। $a+b$ का मान ज्ञात करें।",12
+mclm_math100,79,ru,"Наименьшее расстояние от начала координат до точки на графике $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ можно выразить как $\sqrt{a}/b$, где $a$ и $b$ — положительные целые числа, такие что $a$ не делится на квадрат любого целого числа, большего единицы. Найдите $a+b$.",12
+mclm_math100,79,zh,原点与图形上点 $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ 之间的最小距离可以表示为 $\sqrt{a}/b$，其中 $a$ 和 $b$ 是正整数，并且 $a$ 不能被大于一的任何整数的平方整除。求 $a+b$。,12
+mclm_math100,79,ja,原点とグラフ $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ 上の点との最小距離は、正の整数 $a$ と $b$ を用いて $\sqrt{a}/b$ と表され、$a$ は1より大きい整数の平方で割り切れないとします。$a+b$ を求めなさい。,12
+mclm_math100,79,ar,أصغر مسافة بين الأصل ونقطة على الرسم البياني لـ $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ يمكن التعبير عنها كـ $\sqrt{a}/b$، حيث أن $a$ و $b$ هما عددان صحيحان موجبان بحيث أن $a$ ليس قابلاً للقسمة على مربع أي عدد صحيح أكبر من واحد. أوجد $a+b$.,12
+mclm_math100,79,fr,"La plus petite distance entre l'origine et un point sur le graphe de $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ peut être exprimée comme $\sqrt{a}/b$, où $a$ et $b$ sont des entiers positifs tels que $a$ n'est pas divisible par le carré d'un entier supérieur à un. Trouvez $a+b$.",12
+mclm_math100,79,sw,"Umbali mdogo zaidi kati ya asili na nukta kwenye grafu ya $y=\frac{1}{\sqrt{2}}\left(x^2-3\right)$ unaweza kuonyeshwa kama $\sqrt{a}/b$, ambapo $a$ na $b$ ni nambari kamili chanya ambapo $a$ haigawanyiki na mraba wa nambari yoyote kamili zaidi ya moja. Tafuta $a+b$.",12
+mclm_math100,86,ne,"बिन्दु $(6, 0)$ बाट रेखा $y = 2x-2$ सम्मको सबैभन्दा छोटो दूरी कति छ? आफ्नो उत्तरलाई सबैभन्दा सरल मूल रूपमा व्यक्त गर्नुहोस्।",2\sqrt{5}
+mclm_math100,86,hi,"बिंदु $(6, 0)$ से रेखा $y = 2x-2$ तक की सबसे छोटी दूरी क्या है? अपने उत्तर को सबसे सरल मूल रूप में व्यक्त करें।",2\sqrt{5}
+mclm_math100,86,ru,"Каково кратчайшее расстояние от точки $(6, 0)$ до прямой $y = 2x-2$? Выразите ваш ответ в простейшей радикальной форме.",2\sqrt{5}
+mclm_math100,86,zh,"从点 $(6, 0)$ 到直线 $y = 2x-2$ 的最短距离是多少？请用最简根式形式表达你的答案。",2\sqrt{5}
+mclm_math100,86,ja,"点 $(6, 0)$ から直線 $y = 2x-2$ までの最短距離は何ですか？答えは最も簡単な根号の形で表してください。",2\sqrt{5}
+mclm_math100,86,ar,"ما هي أقصر مسافة من النقطة $(6, 0)$ إلى الخط $y = 2x-2$؟ عبّر عن إجابتك في أبسط صورة جذرية.",2\sqrt{5}
+mclm_math100,86,fr,"Quelle est la distance la plus courte du point $(6, 0)$ à la ligne $y = 2x-2$ ? Exprimez votre réponse sous la forme radicale la plus simple.",2\sqrt{5}
+mclm_math100,86,sw,"Je, ni umbali gani mfupi zaidi kutoka kwa nukta $(6, 0)$ hadi kwenye mstari $y = 2x-2$? Toa jibu lako katika umbo rahisi zaidi la mzizi.",2\sqrt{5}
+mclm_math100,87,ne,"जटिल संख्याहरू $\alpha_1, \alpha_2, \alpha_3$, र $\alpha_4$ समीकरण $x^4+2x^3+2=0$ का चार भिन्न मूलहरू हुन्। अव्यवस्थित सेट निर्धारण गर्नुहोस् \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}.
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,hi,"जटिल संख्याएँ $\alpha_1, \alpha_2, \alpha_3$, और $\alpha_4$ समीकरण $x^4+2x^3+2=0$ के चार भिन्न मूल हैं। अव्यवस्थित सेट निर्धारित करें \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}.
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,ru,"Комплексные числа $\alpha_1, \alpha_2, \alpha_3$ и $\alpha_4$ являются четырьмя различными корнями уравнения $x^4+2x^3+2=0$. Определите неупорядоченное множество \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}.
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,zh,"复数 $\alpha_1, \alpha_2, \alpha_3$ 和 $\alpha_4$ 是方程 $x^4+2x^3+2=0$ 的四个不同的根。确定无序集合 \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}。
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,ja,"複素数 $\alpha_1, \alpha_2, \alpha_3$, および $\alpha_4$ は、方程式 $x^4+2x^3+2=0$ の4つの異なる根です。無序集合 \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}
+\]
+を求めなさい。","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,ar,"الأعداد المركبة $\alpha_1, \alpha_2, \alpha_3$، و $\alpha_4$ هي الجذور الأربعة المختلفة للمعادلة $x^4+2x^3+2=0$. حدد المجموعة غير المرتبة \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}.
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,fr,"Les nombres complexes $\alpha_1, \alpha_2, \alpha_3$, et $\alpha_4$ sont les quatre racines distinctes de l'équation $x^4+2x^3+2=0$. Déterminez l'ensemble non ordonné \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}.
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,87,sw,"Nambari changamano $\alpha_1, \alpha_2, \alpha_3$, na $\alpha_4$ ni mizizi minne tofauti ya mlinganyo $x^4+2x^3+2=0$. Bainisha seti isiyo na mpangilio \[
+\{\alpha_1\alpha_2 + \alpha_3\alpha_4, \alpha_1\alpha_3 + \alpha_2\alpha_4, \alpha_1\alpha_4 + \alpha_2\alpha_3\}.
+\]","\{1\pm\sqrt{5},-2\}"
+mclm_math100,94,ne,"३० विद्यार्थीहरूको कक्षाले हालसालै एउटा परीक्षा दियो। यदि २० विद्यार्थीहरूले ८० अंक, ८ विद्यार्थीहरूले ९० अंक, र २ विद्यार्थीहरूले १०० अंक प्राप्त गरे भने, यस परीक्षामा कक्षाको औसत (माध्य) के थियो?",84
+mclm_math100,94,hi,"30 छात्रों की एक कक्षा ने हाल ही में एक परीक्षा दी। यदि 20 छात्रों ने 80 अंक प्राप्त किए, 8 छात्रों ने 90 अंक प्राप्त किए, और 2 छात्रों ने 100 अंक प्राप्त किए, तो इस परीक्षा में कक्षा का औसत (मीन) क्या था?",84
+mclm_math100,94,ru,"В классе из 30 учеников недавно прошел тест. Если 20 учеников набрали 80 баллов, 8 учеников набрали 90 баллов, и 2 ученика набрали 100 баллов, то каков был средний балл (среднее арифметическое) по этому тесту?",84
+mclm_math100,94,zh,一个有30名学生的班级最近参加了一次考试。如果20名学生得了80分，8名学生得了90分，2名学生得了100分，那么这次考试的班级平均分（即平均值）是多少？,84
+mclm_math100,94,ja,30人の生徒がいるクラスが最近テストを受けました。20人の生徒が80点、8人の生徒が90点、2人の生徒が100点を取った場合、このテストのクラス平均（平均値）は何点ですか？,84
+mclm_math100,94,ar,أجرى فصل مكون من 30 طالبًا اختبارًا مؤخرًا. إذا حصل 20 طالبًا على درجة 80، و8 طلاب حصلوا على درجة 90، و2 طالبان حصلا على درجة 100، فما هو متوسط درجات الفصل (المتوسط الحسابي) في هذا الاختبار؟,84
+mclm_math100,94,fr,"Une classe de 30 élèves a récemment passé un test. Si 20 élèves ont obtenu 80, 8 élèves ont obtenu 90, et 2 élèves ont obtenu 100, quelle était la moyenne de la classe (la moyenne) à ce test ?",84
+mclm_math100,94,sw,"Darasa la wanafunzi 30 lilifanya mtihani hivi karibuni. Ikiwa wanafunzi 20 walipata alama 80, wanafunzi 8 walipata alama 90, na wanafunzi 2 walipata alama 100, basi wastani wa darasa (mean) katika mtihani huu ulikuwa nini?",84
+mclm_math100,97,ne,"$\omega$ लाई एक जटिल संख्या मानौं जसले $\omega^3 = 1$ लाई सन्तुष्ट पार्छ। सबै सम्भावित मानहरू पत्ता लगाउनुहोस्
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\] सबै सम्भावित मानहरू, अल्पविरामले छुट्याएर, प्रविष्ट गर्नुहोस्।",1
+mclm_math100,97,hi,"मान लें कि $\omega$ एक जटिल संख्या है जिसके लिए $\omega^3 = 1.$ सभी संभावित मान खोजें
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\] सभी संभावित मान दर्ज करें, अल्पविराम से अलग करें।",1
+mclm_math100,97,ru,"Пусть $\omega$ — комплексное число, такое что $\omega^3 = 1.$ Найдите все возможные значения
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\]Введите все возможные значения, разделенные запятыми.",1
+mclm_math100,97,zh,"设 $\omega$ 是一个复数，满足 $\omega^3 = 1.$ 求
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\] 的所有可能值。请用逗号分隔所有可能的值。",1
+mclm_math100,97,ja,"$\omega$ を複素数とし、$\omega^3 = 1$ とします。次の値をすべて求めなさい。
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\]可能なすべての値をコンマで区切って入力してください。",1
+mclm_math100,97,ar,"لتكن $\omega$ عددًا مركبًا بحيث $\omega^3 = 1.$ أوجد جميع القيم الممكنة لـ
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\] أدخل جميع القيم الممكنة، مفصولة بفواصل.",1
+mclm_math100,97,fr,"Soit $\omega$ un nombre complexe tel que $\omega^3 = 1.$ Trouvez toutes les valeurs possibles de
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\]Entrez toutes les valeurs possibles, séparées par des virgules.",1
+mclm_math100,97,sw,"Acha $\omega$ kuwa namba tata kama kwamba $\omega^3 = 1.$ Tafuta thamani zote zinazowezekana za
+\[\frac{1}{1 + \omega} + \frac{1}{1 + \omega^2}.\]Ingiza thamani zote zinazowezekana, zikitenganishwa kwa koma.",1
+lcb_dolly,64,ne,अजगर भनेको के हो?,
+lcb_dolly,64,hi,अजगर क्या है?,
+lcb_dolly,64,ru,Что такое питон?,
+lcb_dolly,64,ar,"ما هو ""بايثون""؟",
+lcb_dolly,64,fr,C'est quoi un python?,
+lcb_dolly,75,ne,कतिवटा ग्रहहरू छन्?,
+lcb_dolly,75,hi,कितने ग्रह हैं?,
+lcb_dolly,75,ru,Сколько в мире планет?,
+lcb_dolly,75,ar,كم عدد الكواكب الموجودة؟,
+lcb_dolly,75,fr,Combien de planètes y a-t-il?,
+lcb_dolly,60,ne,के कला बेकार हो?,
+lcb_dolly,60,hi,क्या कला बेकार है?,
+lcb_dolly,60,ru,Искусство бесполезно?,
+lcb_dolly,60,ar,هل الفن عديم الفائدة؟,
+lcb_dolly,60,fr,L'art est-il inutile?,
+lcb_dolly,81,ne,राम्रो तस्बिर कस्तो हुन्छ?,
+lcb_dolly,81,hi,एक अच्छी तस्वीर क्या होती है?,
+lcb_dolly,81,ru,Как сделать хорошую фотографию?,
+lcb_dolly,81,ar,ما الذي يجعل الصورة جيدة؟,
+lcb_dolly,81,fr,Qu'est-ce qui fait une bonne photo?,
+lcb_dolly,59,ne,चन्द्रमामा बस्दा कस्तो हुन्छ?,
+lcb_dolly,59,hi,चंद्रमा पर रहना कैसा होता है?,
+lcb_dolly,59,ru,Каково это — жить на Луне?,
+lcb_dolly,59,ar,ما هو شعور العيش على القمر؟,
+lcb_dolly,59,fr,C'est comment de vivre sur la lune?,
+lcb_dolly,67,ne,सफ्टवेयर शिल्पकला भनेको के हो?,
+lcb_dolly,67,hi,सॉफ्टवेयर शिल्प कौशल क्या है?,
+lcb_dolly,67,ru,Что такое искусство программирования?,
+lcb_dolly,67,ar,ما هو صناعة البرامج,
+lcb_dolly,67,fr,Qu'est-ce que l'artisanat du logiciel?,
+lcb_dolly,62,ne,मैले कस्तो किसिमको डुङ्गा किन्नुपर्छ?,
+lcb_dolly,62,hi,मुझे किस तरह की नाव खरीदनी चाहिए?,
+lcb_dolly,62,ru,Какую лодку мне купить?,
+lcb_dolly,62,ar,أي نوع من القوارب يجب أن أشتري؟,
+lcb_dolly,62,fr,Quel genre de bateau devrais-je acheter?,
+lcb_dolly,69,ne,म दौडन कसरी सुरु गरूँ?,
+lcb_dolly,69,hi,मैं दौड़ना कैसे शुरू करूँ?,
+lcb_dolly,69,ru,Как мне начать бегать?,
+lcb_dolly,69,ar,كيف أبدأ بالجري؟,
+lcb_dolly,69,fr,Comment puis-je commencer à courir?,
+lcb_dolly,0,ne,स्याउ खाने 5 तरिकाहरू के-के हुन्?,
+lcb_dolly,0,hi,सेब खाने के 5 तरीके क्या हैं?,
+lcb_dolly,0,ru,Назови 5 способов употребления яблок,
+lcb_dolly,0,ar,ما هي 5 طرق لتناول التفاح؟,
+lcb_dolly,0,fr,Quelles sont les cinq façons de manger des pommes ?,
+lcb_dolly,5,ne,मलाई 5 वटा डरलाग्दा फिल्महरू सुझाउनुहोस्।,
+lcb_dolly,5,hi,मुझे 5 डरावनी फिल्में सुझाएं,
+lcb_dolly,5,ru,Предложи мне 5 фильмов ужасов,
+lcb_dolly,5,ar,اقترح لي 5 أفلام رعب,
+lcb_dolly,5,fr,Suggérez-moi 5 films d'horreur,
+lcb_dolly,49,ne,तपाईं यात्राको योजना कसरी बनाउनुहुन्छ?,
+lcb_dolly,49,hi,आप यात्रा की योजना कैसे बनाते हैं?,
+lcb_dolly,49,ru,Как спланировать путешествие?,
+lcb_dolly,49,ar,كيف تخططين لرحلة؟,
+lcb_dolly,49,fr,Comment planifiez-vous un voyage?,
+lcb_dolly,9,ne,जनावरहरूले सञ्चार गर्ने 5 तरिकाहरू,
+lcb_dolly,9,hi,जानवरों के संवाद के 5 तरीके,
+lcb_dolly,9,ru,Как животные общаются между собой? Назови 5 способов.,
+lcb_dolly,9,ar,٥ طرق تتواصل بها الحيوانات,
+lcb_dolly,9,fr,5 façons dont les animaux communiquent,
+lcb_dolly,74,ne,मैले आफ्नो पैसा कसरी लगानी गर्नुपर्छ?,
+lcb_dolly,74,hi,मुझे अपना पैसा निवेश कैसे करना चाहिए?,
+lcb_dolly,74,ru,Как мне инвестировать свои деньги?,
+lcb_dolly,74,ar,كيف أستثمر مالي؟,
+lcb_dolly,74,fr,Comment devrais-je investir mon argent?,
+lcb_dolly,79,ne,मानिसहरू बगैंचा लगाउन किन मन पराउँछन्?,
+lcb_dolly,79,hi,लोग बागवानी क्यों पसंद करते हैं?,
+lcb_dolly,79,ru,Почему людям нравится садоводство?,
+lcb_dolly,79,ar,لماذا يحب الناس الزراعة؟,
+lcb_dolly,79,fr,Pourquoi les gens aiment-ils le jardinage?,
+lcb_dolly,57,ne,के सामाजिक सञ्जाल तपाईंका लागि राम्रो हो?,
+lcb_dolly,57,hi,क्या सोशल मीडिया आपके लिए अच्छा है?,
+lcb_dolly,57,ru,Есть ли польза в социальных сетях?,
+lcb_dolly,57,ar,هل وسائل التواصل الاجتماعي جيدة لك ؟,
+lcb_dolly,57,fr,Les réseaux sociaux sont-ils bons pour toi?,
+lcb_dolly,22,ne,पौडी खेल्ने केही सामान्य तरिकाहरू के-के हुन्?,
+lcb_dolly,22,hi,तैरने के कुछ सामान्य तरीके क्या हैं?,
+lcb_dolly,22,ru,Назови распространенные стили плавания.,
+lcb_dolly,22,ar,ما هي أسماء ضربات السباحة الشائعة ؟,
+lcb_dolly,22,fr,Quels sont des coups de natation courants ?,
+lcb_dolly,45,ne,के म घरमै चकलेट बनाउन सक्छु?,
+lcb_dolly,45,hi,क्या मैं घर पर चॉकलेट बना सकता हूँ?,
+lcb_dolly,45,ru,Можно ли приготовить шоколад дома?,
+lcb_dolly,45,ar,هل يمكنني صنع الشوكولاتة في المنزل؟,
+lcb_dolly,45,fr,Puis-je faire du chocolat à la maison?,
+lcb_dolly,82,ne,भान्सेहरू कोशर नुन किन प्रयोग गर्छन्?,
+lcb_dolly,82,hi,रसोइया कोषेर नमक का उपयोग क्यों करते हैं?,
+lcb_dolly,82,ru,Для чего повара используют крупную соль?,
+lcb_dolly,82,ar,لماذا يستخدم الطهاة الملح الكوشر؟,
+lcb_dolly,82,fr,Pourquoi les cuisiniers utilisent-ils du sel casher?,
+lcb_dolly,65,ne,ट्रान्जिस्टरले सिग्नललाई कसरी बढाउँछ?,
+lcb_dolly,65,hi,एक ट्रांजिस्टर सिग्नल को कैसे बढ़ाता है?,
+lcb_dolly,65,ru,Как транзистор усиливает сигнал?,
+lcb_dolly,65,ar,كيف يقوم الترانزستور بتضخيم الإشارة؟,
+lcb_dolly,65,fr,Comment un transistor amplifie-t-il un signal?,
+lcb_dolly,83,ne,मौसमको पूर्वानुमान कसरी गरिन्छ?,
+lcb_dolly,83,hi,मौसम का पूर्वानुमान कैसे बनाया जाता है?,
+lcb_dolly,83,ru,Как составляются прогнозы погоды?,
+lcb_dolly,83,ar,كيف يتم إنشاء توقعات الطقس؟,
+lcb_dolly,83,fr,Comment les prévisions météorologiques sont-elles réalisées?,
